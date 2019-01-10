@@ -281,17 +281,23 @@ TODO: How the process fits to the procurement, controlling, vendor-locking, etc.
 
 NOTES NOTES NOTES
 
-1. Tu trzebaby dac przyklady jak zrobic audyt - w wiekszosci przypadkow firmy/startupy nie maja nawet potrzebnych prerequisites zeby to zrobic, czyli tagowania i grupowania maszyn (na przyklad tagow aws ktore im pokazuja ktory produkt mniej wiecej smiga gdzie)
+Homework process:
 
-2 . No ale jak ? jednym z przykladow jest otagowanie wszystkiego, i wylaczenie wszystkiego co nie mogles otagowac bo nie wiesz, zostawienie wylaczone z tydzien, potem patrzysz czy cos sie skopalo albo czy ktos placze - taki prosty chaos testing
+1. Audyt, większość firm/startupów nie wie co ma. Nawet brakuje tagowania i grupowania maszyn.
 
-3. tutaj tez sie przydaloby wspomniec zeby miec wogole rejestr zakupow i licencji, i kalendarz z datami kiedy je odswiezyc, bo wiekszosc instaluje na jana i po prostu buli
+2. Audyt: otagowanie, opisanie maszyn, żeby wiedzieć co tam jest i jaki produkt jest uruchomiony.
 
-4. zeby pisac dokumentacje to trzeba miec wiki, inaczej zaczna produkowac dokumenty worda i nic sie nie zmieni - trzeba im powiedziec zeby zrobili sobie mediawiki jak nie maja (albo confluence jak chca bulic), i zaczeli organizowac docsy tak operacyjne jak i aplikacyjne
+3. Audyt: otagowaliśmy, a to czego nie wiemy mówimy, że wyłączamy za tydzień, wyłączamy, jeśli było potrzebne zazwyczaj dowiadujemy się w kilka dni przed terminu wyłączenia.  
 
-5. to tez nie zadziala, wiekszosc testowania nie odbywa sie bo ktos nie ma podstaw ani struktury i przykladow dobrych testow, od tego zaczynasz - grupka osob siedzi nad taskiem numer 1, czyli obczaic taka strukture do testow i wyprodukowac jakies fajne przyklady, zeby inni je po prostu klonowali
+4. Dużo firm nie ma rejestru zakupów i licencji, ani kalendarza z datami kiedy je odświeżyć. Częśto płacimy i nie używamy.
 
-6. nie zadziala - 90% apek w enterprise nie ma zadnego API, trzeba najpiew przeleciec cala firme i zidentyfikowac co nadaje sie do automatyzacji, i pewnie najpierw zrobic plan co wywalic i zastapic
+5. Dokumentacja - w dużych organizacjach - wiki - mediawiki albo confluence, żadnych wordów. Dokumentacja powinna obejmować aspekty operacyjne i aplikacyjne.
+
+6. Najlepiej mieć jeden przykładowy process, dokumentacje, skrypty, aby inne teamy mogły klonować sprawdzone podejście.
+
+7. Uwaga - 90% apek w enterprise nie ma zadnego API, trzeba najpiew przeleciec cala firme i zidentyfikowac co nadaje sie do automatyzacji, i pewnie najpierw zrobic plan co wywalic i zastapic.
+
+Uwaga: CloundNative / ... bez automatyzacji i pipelineów to po prostu przenoszenie bałaganu w inne miejsce.
 
 NOTES NOTES NOTES.
 
@@ -299,7 +305,7 @@ Step 0. Implement small new project in YOUR TARGET TECH for your transformation.
 
 Step 1. DevOps Culture, e.g., move all the traditional show stoppers to the left of the software development process. Test in the small project, the DevOps way.
 
-Step 2. Homework. When moving existing applications.
+Step 2. Homework. When moving existing applications (patrz wyżej ^).
 
 0. Do not lift&shift immediately
 1. Review existing applications, machines, servers
