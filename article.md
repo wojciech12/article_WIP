@@ -80,13 +80,15 @@ To research:
 
 - what the secure opinionated K8S is? What the default network plugin for RH, SUse,UBubtu, Mirantis... or other provider is???
 
-## PaaS, APaaS, and CPaaS
+## PaaS = APaaS, and CPaaS
 
 I love Heroku experience, although I have never used it for any heavy lifting. The deployment model inspired the coming products for years. Pivotal, few years back, took everybody by surprise with their Cloud Foundry.
 
 The rise of the containers, Kubernetes in particular, the novel approach of RedHat with OpenShift, pushed the market to introduce two new terms: Application PaaS and Container PaaS  (CPaaS) - Openshift in particular. At this stage, many companies go for the pure Container-as-a-Service solution. The most popular is, of course, Kubernetes.
 
 ### Application PaaS
+
+The application PaaS promises us faster time to market. It also helps enforce coding and software development practises. On other hand, if you choose a closed ecosystem solution, the migration will not be possible.
 
 #### onCloud
 
@@ -112,9 +114,8 @@ It should not be a surprise that brought Redhat OC on Azure and IBM bought Redha
 
 Self-managed onCloud:
 
-1) Cloud Foundry on your favorite cloud provider
+1) Pivotal Cloud Foundry on your favorite cloud provider
 2) Suse Application Cloud Platform
-
 
 ## Container PaaS
 
