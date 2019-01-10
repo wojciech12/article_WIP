@@ -134,7 +134,11 @@ The same tool IBM uses to move existing IBM Bluemix Cloud Foundry applications t
 
 The most of the contributions to Cloud Foundry still are from Pivotal ([stackanalytics](http://stackalytics.com/?project_type=cloudfoundry-group&metric=commits])). The time will show whether the more container-based Cloud Foundry, the approach less best-run-only-on-VMWare and more dependent on generic Kubernetes runtime bring the second live to the project. We see more commits from Google, SAP still relays on Cloud Foundry for SAPCloud. Although, SAP joins the Kubernetes with projects, such as [gartener](https://gardener.cloud/) and [Kyma](https://github.com/kyma-project).
 
-### XaaS
+## IaaS / XaaS
+
+IaaS is here to stay. Still the best way to start develop new projects. As for running your application, IaaS is where you keep your beloved pets.
+
+### XaaS, some people call it SaaS
 
 There is a large number of ready to use solutions that you are going to mix with your CaaS. In most cases, you will use SQS, SNS, Firebase, and multiple other tools solving your problem.
 
@@ -148,16 +152,11 @@ The common use case:
 
 The technologies that supports it, such as Terraform, will be o rise.
 
-### IaaS
-
-IaaS is here to stay. Still the best way to start develop new projects. As for running your application, IaaS is where you keep your beloved pets.
-
 ### Public IaaS
 
-1. AWS - circa 80%
+1. AWS
 2. Azure
 3. GCP
-
 
 ## Enterprise IaaS - onPremise
 
@@ -171,7 +170,7 @@ Options:
 4. Ubuntu Openstack
 5. Suse Openstack
 
-It is interesting. RH, in many materials and publications, says you should not go for IaaS, but jump as soon as possible to the containers, in particular, RH Openshift.
+It is interesting. RH, in their materials and publications, says you should not go for IaaS, but jump as soon as possible to the containers, in particular, RH Openshift.
 
 ## Serverless
 
@@ -203,6 +202,8 @@ Notes on the stack:
 2. IaaS for Pets
 3. XaaS for solving problems
 4. Serverless to cut the costs
+
+In 4, we might use PaaS as well. 1 - might be a CPaaS.
 
 The tech:
 
@@ -270,8 +271,8 @@ Challenges in moving the legacy / core to container or virtualized environment. 
 #### Recruiting
 
 - Hard, less people want to work for the corporations
-- Who does want to work with MS Windows?
-- Exciting: K8S, Cloud Native, Golang, .Net core2.... ML.
+- People thinks that most of the work in enterprise is about legacy, large applications in old tech?
+- Exciting: .Net Core2, K8S/Cloud Native, Golang, . Machine Learning.
 
 #### Procurement Processes
 
